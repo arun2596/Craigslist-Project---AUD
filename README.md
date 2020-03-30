@@ -14,10 +14,10 @@ Our analysis process can be broken down into the following 7 stages.
 3.	Sampling - We found that our target variable (featured/non-featured) is unbalanced with only ~2% of featured posts. So, we performed random down-sampling to balance the dataset
 4.	Creating term document matrix - We brought the text data into a format which our machine learning models can understand. We tokenized, lemmatized, removed stop-words and transformed the text into tf-idf matrix. This increased the size of our dataset exponentially. To further make our models simpler for faster processing, we processed the data to curb near-zero variables 
 5.	Final dataset – We split the dataset into 80:20 ratio for training and testing our models respectively
-6.	Model creation – We tried various classifiers to test which would be flexible enough to fit on the training dataset and at the same time can be generalized for different datasets. The models are listed below – 
-a.	Logistic Regression (LR)
-b.	Support Vector Machines (SVM)
-c.	Random Forest Classifier (RF) 
+6.	Model creation – We tried various classifiers to test which would be flexible enough to fit on the training dataset and at the same time can be generalized for different datasets. The models are listed below – <br />
+a.	Logistic Regression (LR) <br />
+b.	Support Vector Machines (SVM) <br />
+c.	Random Forest Classifier (RF) <br />
 d.	K-Nearest Neighbor (KNN)
 e.	Gaussian Naive Bayes (GNB)
 f.	Decision Tree Classifier (DT)
